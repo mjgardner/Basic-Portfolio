@@ -99,7 +99,6 @@ textarea {
     border: 1px solid #cccccc;
 }
 #gallery li {
-    background-image: url(http://lorempixel.com/300/200/technics);
     display: inline-block;
     margin: 10px;
     width: 300px;
@@ -111,5 +110,20 @@ textarea {
     background-color: #4aaaa5;
     color: white;
     width: 100%;
-    padding: 10px;
+    padding: 10px 0px;
+}
+#gallery li#picture1 {
+    background-image: url(http://lorempixel.com/300/200/technics/1);
+}
+#gallery li#picture2 {
+    background-image: url(http://lorempixel.com/300/200/technics/2);
+}
+#gallery li#picture3 {
+    background-image: url(http://lorempixel.com/300/200/technics/3);
+}
+#gallery li#picture4 {
+    background-image: url(http://lorempixel.com/300/200/technics/4);
+}
+#gallery li#picture5 {
+    background-image: url(http://lorempixel.com/300/200/technics/5);
 }
